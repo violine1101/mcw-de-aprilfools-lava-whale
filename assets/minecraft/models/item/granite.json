@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/granite",
+    "overrides": [
+        { "predicate": { "custom_model_data": 1 }, "model": "lavawhale:whale/head" },
+        { "predicate": { "custom_model_data": 2 }, "model": "lavawhale:whale/body_front" },
+        { "predicate": { "custom_model_data": 3 }, "model": "lavawhale:whale/body_back" },
+        { "predicate": { "custom_model_data": 4 }, "model": "lavawhale:whale/tail_front" },
+        { "predicate": { "custom_model_data": 5 }, "model": "lavawhale:whale/tail_back" },
+        { "predicate": { "custom_model_data": 6 }, "model": "lavawhale:whale/fin_left" },
+        { "predicate": { "custom_model_data": 7 }, "model": "lavawhale:whale/fin_right" }
+    ]
+}

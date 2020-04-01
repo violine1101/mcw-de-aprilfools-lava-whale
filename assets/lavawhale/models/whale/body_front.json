@@ -1,0 +1,28 @@
+{
+    "textures": {
+        "down": "lavawhale:whale/body_front/bottom",
+        "up": "lavawhale:whale/body_front/top",
+        "north": "lavawhale:whale/body_front/front",
+        "south": "lavawhale:whale/body_front/back",
+        "west": "lavawhale:whale/body_front/left",
+        "east": "lavawhale:whale/body_front/right"
+    },
+    "display": {
+        "head": {
+            "scale": [4, 4, 4]
+        }
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#down" },
+                "up":    { "texture": "#up" },
+                "north": { "texture": "#north" },
+                "south": { "texture": "#south" },
+                "west":  { "texture": "#west" },
+                "east":  { "texture": "#east" }
+            }
+        }
+    ]
+}
